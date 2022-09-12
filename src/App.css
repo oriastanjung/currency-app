@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(255, 149, 0);
+  color: white;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 20vh;
+  text-align: center;
+}
+
+table tr th,td{
+  padding: 0.5rem 1rem;
+}
+table tr th{
+  font-weight: bold;
+  font-size: 20px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  table tr th,td{
+    padding: 0.5rem 0.5rem;
+  }
+  table tr th{
+    font-size: 16px;
+  }
+  table tr td{
+    font-size: 14px;
+  }
+}
